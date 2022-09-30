@@ -26,32 +26,33 @@ class MainActivity : AppCompatActivity() {
         recyclerIconsPayment.setHasFixedSize(true)
         adapterPayment = AdapterPayment(this, listPayment)
         recyclerIconsPayment.adapter = adapterPayment
+        listIconsPayment()
 
     }
 
     private fun listIconsPayment () {
-        val icon1 = Payment(R.drawable.ic_pix,"Área Pix")
+        val icon1 = Payment(R.drawable.ic_pix, getString(R.string.title_pix))
         listPayment.add(icon1)
 
-        val icon2 = Payment(R.drawable.ic_pix,"Área Pix")
+        val icon2 = Payment(R.drawable.barcode,getString(R.string.title_payment))
         listPayment.add(icon2)
 
-        val icon3 = Payment(R.drawable.ic_pix,"Área Pix")
+        val icon3 = Payment(R.drawable.emprestimo,getString(R.string.title_borrow))
         listPayment.add(icon3)
 
-        val icon4 = Payment(R.drawable.ic_pix,"Área Pix")
+        val icon4 = Payment(R.drawable.transferencia,getString(R.string.title_transfer))
         listPayment.add(icon4)
 
-        val icon5 = Payment(R.drawable.ic_pix,"Área Pix")
+        val icon5 = Payment(R.drawable.depositar,getString(R.string.title_deposit))
         listPayment.add(icon5)
 
-        val icon6 = Payment(R.drawable.ic_pix,"Área Pix")
+        val icon6 = Payment(R.drawable.ic_recharg_phone,getString(R.string.title_recharg_phone))
         listPayment.add(icon6)
 
-        val icon7 = Payment(R.drawable.ic_pix,"Área Pix")
-        listPayment.add(icon1)
+        val icon7 = Payment(R.drawable.ic_demand,getString(R.string.title_demand))
+        listPayment.add(icon7)
 
-        val icon7 = Payment(R.drawable.ic_pix,"Área Pix")
-        listPayment.add(icon1)
+        val icon8 = Payment(R.drawable.doacao,getString(R.string.title_donation))
+        listPayment.add(icon8)
     }
 }

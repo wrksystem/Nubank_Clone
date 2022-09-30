@@ -4,4 +4,14 @@
     <string name="txt_nome_usuario">Olá, Geisiele</string>
 
     <string name="txt_saldo_conta">Conta \n\n R$ 5000,00</string>
+
+    <string name="title_pix">Área Pix</string>
+    <string name="title_payment">Pagar</string>
+    <string name="title_borrow">Pegar \n Emprestado </string>
+    <string name="title_transfer">Transferir</string>
+    <string name="title_deposit">Depositar</string>
+    <string name="title_recharg_phone">Recarga de Celular</string>
+    <string name="title_demand">Cobrar</string>
+    <string name="title_donation">Doação</string>
+
 </resources>
